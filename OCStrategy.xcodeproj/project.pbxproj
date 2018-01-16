@@ -59,6 +59,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04952D22200DE024003E5C0B /* Penguin */ = {
+			isa = PBXGroup;
+			children = (
+				656B4596200DAFC600029539 /* Protocol */,
+				656B4597200DAFE700029539 /* ProtocolImpl */,
+				656B4598200DB03100029539 /* Penguin.h */,
+				656B4599200DB03100029539 /* Penguin.m */,
+				656B459B200DB20A00029539 /* ViolentPenguin.h */,
+				656B459C200DB20A00029539 /* ViolentPenguin.m */,
+				656B459E200DB2B100029539 /* BoringPenguin.h */,
+				656B459F200DB2B100029539 /* BoringPenguin.m */,
+			);
+			path = Penguin;
+			sourceTree = "<group>";
+		};
 		656B4564200DABB400029539 = {
 			isa = PBXGroup;
 			children = (
@@ -78,15 +93,8 @@
 		656B456F200DABB400029539 /* OCStrategy */ = {
 			isa = PBXGroup;
 			children = (
-				656B4596200DAFC600029539 /* Protocol */,
-				656B4597200DAFE700029539 /* ProtocolImpl */,
 				656B4588200DAC4800029539 /* Main */,
-				656B4598200DB03100029539 /* Penguin.h */,
-				656B4599200DB03100029539 /* Penguin.m */,
-				656B459B200DB20A00029539 /* ViolentPenguin.h */,
-				656B459C200DB20A00029539 /* ViolentPenguin.m */,
-				656B459E200DB2B100029539 /* BoringPenguin.h */,
-				656B459F200DB2B100029539 /* BoringPenguin.m */,
+				04952D22200DE024003E5C0B /* Penguin */,
 			);
 			path = OCStrategy;
 			sourceTree = "<group>";
